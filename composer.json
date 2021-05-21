@@ -38,10 +38,5 @@
         "test": "phpunit --colors=always",
         "cs-fix": "php-cs-fixer fix --config=.php_cs",
         "cs-check": "php-cs-fixer fix --config=.php_cs -v --diff --dry-run"
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "4.0.x-dev"
-        }
     }
 }
